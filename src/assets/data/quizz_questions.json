@@ -1,0 +1,55 @@
+{
+  "title": "Qual área da tecnologia combina mais com você?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "O que mais te atrai na programação?",
+      "options": [
+        { "id": 1, "name": "Criar interfaces bonitas e interativas", "alias": "A" },
+        { "id": 2, "name": "Resolver problemas complexos e criar lógica", "alias": "B" },
+        { "id": 3, "name": "Gosto dos dois, tanto a interface quanto a lógica", "alias": "C" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual ferramenta você prefere usar?",
+      "options": [
+        { "id": 1, "name": "Figma ou Canva", "alias": "A" },
+        { "id": 2, "name": "Postman ou MySQL Workbench", "alias": "B" },
+        { "id": 3, "name": "Docker ou GitHub", "alias": "C" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual linguagem você usaria em um projeto?",
+      "options": [
+        { "id": 1, "name": "JavaScript ou TypeScript", "alias": "A" },
+        { "id": 2, "name": "Java ou Python", "alias": "B" },
+        { "id": 3, "name": "Gosto de aprender várias linguagens", "alias": "C" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "O que te deixa mais animado?",
+      "options": [
+        { "id": 1, "name": "Criar um site bonito e funcional", "alias": "A" },
+        { "id": 2, "name": "Construir uma API robusta e segura", "alias": "B" },
+        { "id": 3, "name": "Criar um sistema completo, do frontend ao backend", "alias": "C" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se você tivesse que escolher um framework, qual seria?",
+      "options": [
+        { "id": 1, "name": "React ou Angular", "alias": "A" },
+        { "id": 2, "name": "Spring Boot ou Express.js", "alias": "B" },
+        { "id": 3, "name": "Uso o que for necessário para o projeto", "alias": "C" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você tem perfil de Frontend Developer! Gosta de criar interfaces intuitivas e proporcionar uma boa experiência ao usuário.",
+    "B": "Você tem perfil de Backend Developer! Prefere trabalhar com regras de negócio, banco de dados e APIs.",
+    "C": "Você tem perfil de Fullstack Developer! Gosta de transitar entre frontend e backend e resolver problemas completos."
+  }
+}
